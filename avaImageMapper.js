@@ -1903,7 +1903,7 @@ function AvaImageMapper() {
 
 	Rect.prototype.toLabellingString = function() { //to labelling syntax code
 		return '[@'
-			+ this.params.x + ','
+			+ this.params.x + ':'
 			+ this.params.y
 			+ (this.title ? '*' + this.title : '*answer')
 			+ ']';
